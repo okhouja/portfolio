@@ -38,14 +38,12 @@ body {
     width: 90%;
     /* float: left; */
 
-  .nav-icon {
+  /* .nav-icon {
     margin: 1em;
     width: 40px;
-  }
+  } */
 
-  .x-bottom,
-  .x-top,
-  .x-mid {
+  .nav-icon {
     margin: 1em;
     width: 40px;
     background-color: #000;
