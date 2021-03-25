@@ -41,11 +41,13 @@ body {
   .nav-icon {
     margin: 1em;
     width: 40px;
-  } /*
+  }
 
-  .nav-icon:after,
-  .nav-icon:before,
-  .nav-icon div {
+  .x-bottom,
+  .x-top,
+  .x-mid {
+    margin: 1em;
+    width: 40px;
     background-color: #000;
     border-radius: 3px;
     content: "";
@@ -53,19 +55,19 @@ body {
     height: 5px;
     margin: 7px 0;
     transition: all 0.2s ease-in-out;
-  } */
-  /* .nav-icon:hover:before {
+  }
+  /* .x-top {
     transform: translateY(12px) rotate(135deg);
   }
 
-  .nav-icon:hover:after {
+  .x-bottom {
     transform: translateY(-12px) rotate(-135deg);
   }
 
-  .nav-icon :hover:div {
+  .x-mid {
     transform: scale(0);
   } */
-  .side-menu {
+  */ .side-menu {
     border: 2px green dotted;
     display: none;
     /* flex-direction: column; */
