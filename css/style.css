@@ -40,8 +40,8 @@ body {
 
   .nav-icon {
     margin: 1em;
-    width: 400px;
-  }
+    width: 40px;
+  } /*
 
   .nav-icon:after,
   .nav-icon:before,
@@ -53,8 +53,8 @@ body {
     height: 5px;
     margin: 7px 0;
     transition: all 0.2s ease-in-out;
-  }
-  .nav-icon:hover:before {
+  } */
+  /* .nav-icon:hover:before {
     transform: translateY(12px) rotate(135deg);
   }
 
@@ -62,17 +62,17 @@ body {
     transform: translateY(-12px) rotate(-135deg);
   }
 
-  .nav-icon:hover div {
+  .nav-icon :hover:div {
     transform: scale(0);
-  }
-  .main-nav {
+  } */
+  .side-menu {
     border: 2px green dotted;
-    display: flex;
+    display: none;
     /* flex-direction: column; */
     justify-items: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    width: 25vw;
+    height: 30vh;
   }
 }
 /*
