@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;1,200;1,400&display=swap");
+
+body {
+  /* font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  color: #1c1b1b;
+  background-color: lightgray; */
+}
+/* .container {
+  border: 2px black dashed;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+} */
+@media (max-width: 600px) {
+  /* .menu {
+    border: 2px red dashed;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1% auto;
+    width: 60%;
+    height: 18%; 
+  }
+  .logo {
+    border: 2px violet dashed;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; 
+    background-size: 2px;
+    width: 25%;
+    height: 100%;
+  }
+  .logo-img {
+    width: 90%;
+    /* float: left; */
+
+  .nav-icon {
+    margin: 1em;
+    width: 40px;
+  }
+
+  .nav-icon:after,
+  .nav-icon:before,
+  .nav-icon div {
+    background-color: #000;
+    border-radius: 3px;
+    content: "";
+    display: block;
+    height: 5px;
+    margin: 7px 0;
+    transition: all 0.2s ease-in-out;
+  }
+  .nav-icon:hover:before {
+    transform: translateY(12px) rotate(135deg);
+  }
+
+  .nav-icon:hover:after {
+    transform: translateY(-12px) rotate(-135deg);
+  }
+
+  .nav-icon:hover div {
+    transform: scale(0);
+  }
+  .side-menu {
+    border: 2px green dotted;
+    display: none;
+    /* flex-direction: column; */
+    justify-items: center;
+    align-items: center;
+    width: 25vw;
+    height: 30vh;
+  }
+}
+/*
+  ul {
+    border: 2px fuchsia dashed;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    /* justify-content: space-evenly; 
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul li a {
+    color: black;
+  }
+  ul li {
+    border: 3px rosybrown dotted;
+    width: 20%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}*/
+@media (min-width: 600px) {
+  .menu {
+    border: 2px red dashed;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1% auto;
+    width: 60%;
+    height: 18%;
+  }
+  .logo {
+    border: 2px violet dashed;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-size: 2px;
+    width: 25%;
+    height: 100%;
+  }
+  .logo-img {
+    width: 90%;
+    /* float: left; */
+  }
+  .main-nav {
+    border: 2px green dotted;
+    display: flex;
+    /* flex-direction: column; */
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  ul {
+    border: 2px fuchsia dashed;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul li a {
+    color: black;
+  }
+  ul li {
+    border: 3px rosybrown dotted;
+    width: 20%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .menu {
+    border: 2px red dashed;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1% auto;
+    width: 60%;
+    height: 40%;
+  }
+  .logo {
+    border: 2px violet dashed;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-size: 2px;
+    width: 50%;
+    height: 100%;
+  }
+  .logo-img {
+    width: 90%;
+  }
+  .main-nav {
+    border: 2px green dotted;
+    display: flex;
+    /* flex-direction: column; */
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  ul {
+    border: 2px fuchsia dashed;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul li a {
+    color: black;
+  }
+  ul li {
+    border: 3px rosybrown dotted;
+    width: 20%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}

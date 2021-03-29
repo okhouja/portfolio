@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>portfolio</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="menu nav-icon">
+        <!-- <input type="checkbox" id="menu_checkbox" />
+        <label for="menu_checkbox">
+          <div class="x-top"></div>
+          <div class="x-mid"></div>
+          <div class="x-bottom"></div>
+        </label> -->
+        <!-- <div class="logo">
+          <img class="logo-img" src="./img/Omar.svg" alt="" />
+        </div> -->
+        <nav class="side-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">My Project</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div></div>
+      </header>
+    </main>
+    <script>
+      let clicked = false;
+      document.querySelector(".nav-icon").addEventListener("click", () => {
+        clicked = !clicked;
+        console.log(clicked);
+        if (clicked) {
+          document.querySelector(".side-menu").style.cssText =
+            "display: block; position: absolute;top: 8vh;left:0;z-index: 1;";
+          // document.querySelector(".x-top").style.cssText =
+          //   "transform: translateY(12px) rotate(135deg);";
+          // document.querySelector(".x-bottom").style.cssText =
+          //   "transform: translateY(12px) rotate(-135deg);";
+          // document.querySelector(".x-mid").style.cssText =
+          //   "transform: scale(0);";
+        } else {
+          document.querySelector(".side-menu").style.cssText = "display: none;";
+          // document.querySelector(".x-top").style.cssText = "display: initial";
+          // document.querySelector(".x-bottom").style.cssText =
+          //   "display: initial";
+          // document.querySelector(".x-mid").style.cssText = "display: initial";
+        }
+      });
+    </script>
+  </body>
+</html>

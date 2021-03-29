@@ -1,0 +1,321 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #333333;
+  font-family: "Varela", sans-serif;
+  font-size: 11pt;
+  font-weight: 300;
+  color: #656565;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #2b3f48;
+}
+p,
+ol,
+ul {
+  margin-top: 0;
+}
+
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul.actions {
+  text-align: center;
+  /* border: 3px dotted greenyellow; */
+}
+
+p {
+  line-height: 180%;
+}
+
+a {
+  color: #0000ff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  overflow: hidden;
+  margin: 0em auto;
+  width: 1000vw;
+}
+
+/**********************************************************/
+/* Header                                                                        */
+/**********************************************************/
+#wrapper {
+  background: #fff;
+}
+
+#header-wrapper {
+  background: #333333;
+}
+
+#header {
+  position: relative;
+  padding: 3em 0em;
+}
+
+/**********************************************************/
+/* Logo                                                                        */
+/**********************************************************/
+
+#logo {
+  position: absolute;
+  top: 1em;
+  left: 0;
+}
+
+#logo h1 {
+  color: #fff;
+}
+
+#logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/**********************************************************/
+/* Menu                                                                        */
+/**********************************************************/
+#menu {
+  position: absolute;
+  top: 2em;
+  right: 0;
+}
+
+#menu ul {
+  display: inline-block;
+}
+
+#menu li {
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+#menu li a,
+#menu li span {
+  padding: 1em 1.5em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+#menu li:hover a,
+#menu li.active a,
+#menu li.active span {
+  color: #fff;
+}
+
+#menu .current_page_item a {
+  background: #009e2d;
+  color: #fff;
+}
+
+/**********************************************************/
+/* Banner                                                                        */
+/**********************************************************/
+
+#banner {
+  overflow: hidden;
+  padding: 15em 0em 5em 0em;
+  background: #202020;
+  background-size: cover;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#banner .title {
+  margin-bottom: 1em;
+  text-transform: uppercase !important;
+}
+
+#banner .title h2 {
+  color: #fff;
+}
+
+#banner .title .byline {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#banner .button {
+  margin-top: 3em;
+  background: #009e2d !important;
+}
+
+/**********************************************************/
+/*  Heading Titles                                                                          */
+/**********************************************************/
+.title {
+  margin-bottom: 3em;
+}
+
+.title h2 {
+  text-transform: uppercase;
+  font-size: 2.7em;
+}
+
+.title .byline {
+  font-size: 1.7em;
+  color: #6f6f6f;
+}
+
+/**********************************************************/
+/*  Featured                                                                          */
+/**********************************************************/
+#featured {
+  border: 2px dotted blue;
+  overflow: hidden;
+  padding: 5em 0em;
+  background: #009e2d;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  width: 100%;
+}
+
+#featured a {
+  color: rgba(255, 255, 255, 1);
+}
+
+#featured .button {
+  background: #fff;
+  margin-top: 3em;
+  font-size: 1em;
+  color: #009e2d;
+}
+
+#featured .title h2 {
+  color: #fff;
+}
+
+#featured .title .byline {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#extra {
+  overflow: hidden;
+  padding: 5em 0em;
+}
+
+#extra .title {
+  text-align: center;
+}
+
+#extra .button {
+  margin-top: 5em;
+}
+
+/* #extra .fa {
+  display: block;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 3em;
+} */
+
+/**********************************************************/
+/*  Button Style                                                                          */
+/**********************************************************/
+.button {
+  display: inline-block;
+  padding: 0em 3em;
+  background: #009e2d;
+  letter-spacing: 0.2em;
+  line-height: 4em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1em;
+  color: #fff;
+}
+
+.button:before {
+  display: inline-block;
+  background: #ffc31f;
+  margin-right: 1em;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: #272925;
+}
+/**********************************************************/
+/*  3-column                                                                           */
+/**********************************************************/
+.box {
+  padding: 3em 2em 2em 2em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+.boxA,
+.boxB,
+.boxC {
+  width: 320px;
+}
+
+.boxA,
+.boxB {
+  float: left;
+  margin-right: 20px;
+}
+
+.boxC {
+  float: right;
+}
+
+/**********************************************************/
+/* Page                                                                        */
+/**********************************************************/
+#page {
+  border: 2px dashed red;
+  width: 20px;
+  padding: 5em 0em;
+  text-align: center;
+}
+
+#page .button {
+  margin-top: 2em;
+  display: inline-block;
+  text-align: center;
+}
+
+/*********************************************************************************/
+/* footer                                                                     */
+/*********************************************************************************/
+
+#copyright {
+  overflow: hidden;
+  padding: 5em 0em;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#copyright p {
+  text-align: center;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#copyright a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}

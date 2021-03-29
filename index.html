@@ -6,53 +6,225 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>portfolio</title>
+    <title>Omar portfolio</title>
   </head>
   <body>
-    <main class="container">
-      <header class="menu nav-icon">
-        <!-- <input type="checkbox" id="menu_checkbox" />
-        <label for="menu_checkbox">
-          <div class="x-top"></div>
-          <div class="x-mid"></div>
-          <div class="x-bottom"></div>
-        </label> -->
-        <!-- <div class="logo">
-          <img class="logo-img" src="./img/Omar.svg" alt="" />
-        </div> -->
-        <nav class="side-menu">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Project</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <div></div>
+    <main">
+      <header class="header-container">
+        <div class="header">
+          <div class="logo">
+            <h1><a href="#">OMAR'S WEBSITE</a></h1>
+          </div>
+          <div class="menu">
+            <ul>
+              <li class="current_page_item">
+                <a href="#">Homepage</a>
+              </li>
+              <li><a href="#projects">My Project</a></li>
+              <li><a href="#about_me">About Me</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </header>
+
+      <section class="banner__container">
+        <div class="banner">
+          <div class="title">
+            <span class="byline">Hello, I'm</span>
+
+            <h2>Omar Khouja</h2>
+            <span class="byline">Web Developer</span>
+          </div>
+          <ul class="button__container">
+            <li class="button skills__button">MY Skills</li>
+          </ul>
+          <div class="skills__comtainer">
+            <ul>
+            <li><img class="skills__logo" src="./ico/html5.svg" alt=""></li>
+            <li><img class="skills__logo" src="./ico/css3.svg" alt=""></li>
+            <li><img class="skills__logo" src="./ico/js.svg" alt=""></li>
+            <li><img class="skills__logo" src="./ico/git.svg" alt=""></li>
+          </ul>
+          </div>
+         
+        </div>
+      </section>
+      <article class="projects__container" id="projects">
+        <div>
+          <div class="title">
+            <h2>My Projects</h2>
+            <span class="byline"
+              >Work projects that I did while learning at Digital Career
+              Institute School
+            </span>
+          </div>
+        </div>
+        <div class="boxes__container">
+          <div class="box">
+            <div class="box1">
+              <p>Gallery Wall App</p>
+              <a href="https://okhouja.github.io/GalleryWall/" target="_blank">
+                <img
+                  class="fotos__project"
+                  src="./img/gallerywall.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box2">
+              <p>Periodic Table</p>
+              <a href="https://okhouja.github.io/CSS_Selector/" target="_blank">
+                <img
+                  class="fotos__project"
+                  src="./img/periodic_table.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box3">
+              <p>Login App</p>
+              <a href="https://okhouja.github.io/login/" target="_blank">
+                <img class="fotos__project" src="./img/login_app.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box4">
+              <p>Mobile App</p>
+              <a href="https://okhouja.github.io/Mobile-App/" target="_blank">
+                <img class="fotos__project" src="./img/mobile_app.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box5">
+              <p>Youtube Clone (under constaction)</p>
+              <a
+                href="https://okhouja.github.io/youTube-clone/"
+                target="_blank"
+              >
+                <img
+                  class="fotos__project"
+                  src="./img/youtube_clone.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <ul class="button__container li">
+          <li>
+            <a
+              href="https://github.com/okhouja?tab=repositories"
+              target="_blank"
+              class="button"
+              >My Projects on Github</a
+            >
+          </li>
+        </ul>
+      </article>
+      <section class="featured" id="about_me">
+        <div class="title">
+          <h2>About me</h2>
+          <span class="byline">
+            My name is Omar Khouja. I'm 39 Years Old, and Live in Hamburg</span
+          >
+        </div>
+        <p>
+          I'm came from Aleppo - Syria, I live in Hamburg - Germany since 2015. I studied
+          two years at the Technical Institute of Electricity and Mechanics in
+          Aleppo - Communications Department. I worked in IT Department most of
+          the Time and my dream always learning Web Development and now I
+          learning Web Development at Digital Career Institute School.
+        </p>
+        <ul class="button__container li">
+          <li>
+            <a href="https://github.com/okhouja" class="button"
+              >my Page on Github</a
+            >
+          </li>
+        </ul>
+      </section>
+      <article class="page" id="contact">
+        <div class="title">
+          <h2>Contact Me</h2>
+        </div>
+
+        <form action="#">
+          <div class="content__form">
+            <fieldset class="input__fields">
+              <input type="text" class="input" placeholder="Name" />
+              <input
+                type="text"
+                class="input"
+                placeholder="Email Address"
+                required
+              />
+              <input type="text" class="input" placeholder="Phone" />
+              <textarea
+                type="text"
+                class="input"
+                placeholder="Your Message :"
+              ></textarea>
+              <input
+                type="submit"
+                class="button button__submit"
+                value="Submit"
+              />
+            </fieldset>
+          </div>
+        </form>
+      </article>
+
+      <footer class="copyright">
+        <div class="contact__container">
+          <ul class="contact__item">
+            <li>
+              <a href="https://github.com/okhouja">
+                <img
+                  class="contact__icon"
+                  src="./ico/github.svg"
+                  alt="github"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/"
+                ><img
+                  class="contact__icon"
+                  src="./ico/instagram.svg"
+                  alt="instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com" target="_blank"
+                ><img
+                  class="contact__icon"
+                  src="./ico/facebook.svg"
+                  alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" target="_blank"
+                ><img
+                  class="contact__icon"
+                  src="./ico/twitter.svg"
+                  alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="mailto:omar0940@gmail.com"><img class="contact__icon" src="./ico/gmail.svg" alt="email"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <p>Copyright © 2021 Omar's Website. All Rights Reserved</p>
+      </footer>
     </main>
-    <script>
-      let clicked = false;
-      document.querySelector(".nav-icon").addEventListener("click", () => {
-        clicked = !clicked;
-        console.log(clicked);
-        if (clicked) {
-          document.querySelector(".side-menu").style.cssText =
-            "display: block; position: absolute;top: 8vh;left:0;z-index: 1;";
-          // document.querySelector(".x-top").style.cssText =
-          //   "transform: translateY(12px) rotate(135deg);";
-          // document.querySelector(".x-bottom").style.cssText =
-          //   "transform: translateY(12px) rotate(-135deg);";
-          // document.querySelector(".x-mid").style.cssText =
-          //   "transform: scale(0);";
-        } else {
-          document.querySelector(".side-menu").style.cssText = "display: none;";
-          // document.querySelector(".x-top").style.cssText = "display: initial";
-          // document.querySelector(".x-bottom").style.cssText =
-          //   "display: initial";
-          // document.querySelector(".x-mid").style.cssText = "display: initial";
-        }
-      });
-    </script>
   </body>
 </html>
